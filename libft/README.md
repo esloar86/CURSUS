@@ -61,7 +61,7 @@ la declaración a tu archivo libft.h:
     
 Los miembros de la estructura t_list son:
 - content: la información contenida por el nodo.
--     void *: permite guardar cualquier tipo de información.
+     void *: permite guardar cualquier tipo de información.
 
 - next: la dirección del siguiente nodo, o NULL si el siguiente nodo es el último.
 En tu Makefile, añade una regla make bonus que incorpore las funciones bonus a tu
