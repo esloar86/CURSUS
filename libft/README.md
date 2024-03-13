@@ -1,42 +1,47 @@
 # LIBFT
+## Tu primera librería
 Este proyecto consiste en programar una librería en C.
 "Tu librería tendrá un montón de funciones de propósito general en las que se apoyarán tus programas"
 
 Lista de funciones a implementar:
-• toupper
-• isalpha
-• isdigit
-• tolower
-• isalnum
-• isascii• strchr
-• isprint• strrchr
-• strlen
-• strncmp
-• memset
-• bzero• memchr
-• memcpy• memcmp
-• memmove
-• strnstr
-• strlcpy
-• strlcat
-• atoi
+- toupper
+- isalpha
+- isdigit
+- tolower
+- isalnum
+- isascii
+- strchr
+- isprint
+- strrchr
+- strlen
+- strncmp
+- memset
+- bzero
+- memchr
+- memcpy
+- memcmp
+- memmove
+- strnstr
+- strlcpy
+- strlcat
+- atoi
 
-• calloc
-• strdup
+- calloc
+- strdup
 
 
 Funciones adicionales:
-ft_substr
-ft_strjoin
-ft_strtrim
-ft_split
-ft_itoa
-ft_strmapi
-ft_striteri
-ft_putchar_fd
-ft_putstr_fd
-ft_putendl_fd
-ft_putnbr_fd
+- ft_substr
+- ft_strjoin
+- ft_strtrim
+- ft_split
+- ft_itoa
+- ft_strmapi
+- ft_striteri
+- ft_putchar_fd
+- ft_putstr_fd
+- ft_putendl_fd
+- ft_putnbr_fd
 
 
 
@@ -55,9 +60,9 @@ la declaración a tu archivo libft.h:
     
     
 Los miembros de la estructura t_list son:
-• content: la información contenida por el nodo.
-    void *: permite guardar cualquier tipo de información.
+- content: la información contenida por el nodo.
+-     void *: permite guardar cualquier tipo de información.
 
-• next: la dirección del siguiente nodo, o NULL si el siguiente nodo es el último.
+- next: la dirección del siguiente nodo, o NULL si el siguiente nodo es el último.
 En tu Makefile, añade una regla make bonus que incorpore las funciones bonus a tu
 libft.a.
